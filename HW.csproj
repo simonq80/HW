@@ -15,6 +15,6 @@
   </Target>
   <Target Name="Rebuild" DependsOnTargets="Clean;Build" />
   <Target Name="WriteOut">
-    <Message test = "HelloHello"></Message>
+    <Message text = "HelloHello"></Message>
   </Target>
 </Project>
