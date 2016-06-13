@@ -14,4 +14,7 @@
     <Delete Files="$(OutputPath)$(AssemblyName).exe" />
   </Target>
   <Target Name="Rebuild" DependsOnTargets="Clean;Build" />
+  <Target Name="WriteOut">
+    <Message test = "HelloHello"></Message>
+  </Target>
 </Project>
